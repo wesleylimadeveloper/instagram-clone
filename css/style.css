@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;  
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: start;
+    width: 60%;
+}
+
+.cellphone-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.cellphone-container img {
+    height: 50rem;
+}
+
+.instagram-account {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 34rem;
+    width: 50%;
+}
+
+.group {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.3rem 0;
+    width: 100%;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile-pic {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-pic img {
+    height: 6rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 8px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account-text {
+    color: rgb(160, 160, 160);
+}
+
+.link-text {
+    color: #0095f6;
+}
+
+.get-app-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.3rem 0;
+    width: 100%;
+}
+
+.get-app-text {
+    font-weight: bold;
+    text-align: center;
+}
+
+.app-download-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+}
+
+.app-download-logo {
+    background-size: cover;
+    height: 3rem;
+    width: 10rem;
+}
+
+.app-download-logo:nth-child(1) {
+    background-image: url('../img/apple-button.png');
+}
+
+.app-download-logo:nth-child(2) {
+    background-image: url('../img/googleplay-button.png');
+}
